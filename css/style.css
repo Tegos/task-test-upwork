@@ -1,0 +1,48 @@
+.input-w label, .input-w input, .input-w select {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+input, select {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form_wrapper {
+	width: 100%;
+}
+
+.form_wrapper .form {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.input-w label {
+	min-width: 200px;
+	margin-top: 7px;
+}
+
+.input-w input, .input-w select {
+	width: 150px;
+	float: right;
+}
+
+.buttons {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}
+
+.error {
+	background-color: pink;
+	border: 1px dashed red;
+	color: white;
+}
